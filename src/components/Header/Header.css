@@ -1,0 +1,86 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    display: flex;
+    width: 40rem;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+header img {
+    width: 200px;
+}
+
+form {
+    margin-top: 25px;
+    border-top: 1px solid rgb(173, 173, 173);
+    padding: 25px;
+}
+
+.result {
+    text-align: center;
+}
+.region {
+    justify-content: center;
+    color: rgb(114, 114, 114);
+    display: flex;
+}
+
+.temp {
+    display: flex;
+    justify-content:center ;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.cel {
+    padding-top: 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+    padding: 5px;
+    padding-top: 15px;
+    
+}
+
+.description .wind {
+    border-left: 5px solid rgb(119, 255, 126); 
+    padding-left: 10px;
+}
+
+.description .moisture {
+    border-left: 5px solid rgb(49, 156, 255); 
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        margin-top: 0;
+    }
+    header {
+       flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 530px) {
+      .container {
+        width: 450px;
+
+   
+}
+}

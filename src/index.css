@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
+
+body {
+  background-color: rgb(224, 224, 224);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
